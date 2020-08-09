@@ -179,6 +179,10 @@ var VueTinySlider = {
 			type: [Boolean],
 			default: false
 		},
+		lazyloadOffset: {
+			type: [Number],
+			default: 0
+		},
 		touch: {
 			type: [Boolean],
 			default: true
@@ -310,6 +314,7 @@ var VueTinySlider = {
 				autoHeight: this.autoHeight,
 				responsive: this.responsive,
 				lazyload: this.lazyload,
+				lazyloadOffset: this.lazyloadOffset,
 				touch: this.touch,
 				mouseDrag: this.mouseDrag,
 				nested: this.nested,
